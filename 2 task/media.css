@@ -1,0 +1,82 @@
+@media(max-width: 520px) {
+
+    .logo,
+    .contact{
+        display: none;
+    }
+    .header,
+    main,
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    body{
+        margin: 5px;
+        background-image: none;
+    }
+    .container__main, 
+    .contarner__footer{
+        flex-direction: column;
+        justify-content: start;
+    }
+    .container__menu{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    main{
+        background: radial-gradient(circle 40px at 95% 30%, #833ab4b6, #833ab400 70%), radial-gradient(circle 40px at 10% 95%, #961A1A, #961a1a00 70%);
+    }
+    .about-us,
+    .menu__footer{
+        margin-top: 30px;
+    }
+    .right__menu_footer{
+        margin: 0;
+    }
+    .contact__footer{
+        text-align: start;
+        margin-top: 30px;
+    }
+    .bar__menu{
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+        font-style: 12px;
+        letter-spacing: -0.09rem;
+    }
+    a{
+        padding: 5px;
+    }
+    .title__left,
+    .size1{
+        font-size: 36px;
+    }
+    .right {
+        margin-top: 45px;
+        text-align: start;
+    }
+    .more-info{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .container_publicity {
+        padding-left: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+    }
+    .bule_blue,
+    .bule_brown{
+        width: 0;
+        height: 0;
+    }
+    .top__more-info span{
+        position: relative;
+        top: 8px;
+    }
+    .box_desing{
+        text-align: start;
+    }
+}
